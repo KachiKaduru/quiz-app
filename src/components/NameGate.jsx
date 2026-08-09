@@ -1,7 +1,7 @@
-import { useState } from "react";
-import { hasSetName, setName } from "../lib/storage";
+import {useState} from "react";
+import {hasSetName, setName} from "../lib/storage";
 
-export default function NameGate({ onDone }) {
+export default function NameGate({onDone}) {
   const [value, setValue] = useState("");
 
   if (hasSetName()) return null;
@@ -14,11 +14,11 @@ export default function NameGate({ onDone }) {
   return (
     <div className="center-screen">
       <div className="name-card">
-        <div className="stamp">Q</div>
-        <h1>Welcome to QuizHub</h1>
+        <div className="stamp">A</div>
+        <h1>Welcome to your Assessment Center</h1>
         <p>
-          What should we call you? It'll show up on your dashboard and results —
-          purely optional, nothing breaks without it.
+          What should we call you? It'll show up on your dashboard and results — purely optional,
+          nothing breaks without it.
         </p>
         <input
           className="name-input"
@@ -34,11 +34,7 @@ export default function NameGate({ onDone }) {
           <button className="btn ghost" onClick={() => submit("")}>
             Skip
           </button>
-          <button
-            className="btn primary"
-            disabled={!value.trim()}
-            onClick={() => submit(value)}
-          >
+          <button className="btn primary" disabled={!value.trim()} onClick={() => submit(value)}>
             Continue
           </button>
         </div>

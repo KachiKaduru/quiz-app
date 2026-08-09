@@ -7,8 +7,8 @@
   --line: #2a313d;
   --text: #e9edf3;
   --text-dim: #8a93a3;
-  --accent: #e8a33d;
-  --accent-dim: #7a5a24;
+  --accent: #7161ef;
+  --accent-dim: #383078;
   --good: #4fb477;
   --bad: #e2604f;
   --radius: 14px;
@@ -30,9 +30,9 @@ body,
 body {
   margin: 0;
   background: var(--bg);
-  background-image:
+  /* background-image:
     radial-gradient(circle at 20% -10%, rgba(232, 163, 61, 0.08), transparent 40%),
-    radial-gradient(circle at 100% 0%, rgba(79, 180, 119, 0.05), transparent 35%);
+    radial-gradient(circle at 100% 0%, rgba(79, 180, 119, 0.05), transparent 35%); */
   color: var(--text);
   font-family: var(--body);
   -webkit-font-smoothing: antialiased;
@@ -216,8 +216,8 @@ h1.title {
 
 .pill.in-progress {
   color: var(--accent);
-  border-color: rgba(232, 163, 61, 0.35);
-  background: rgba(232, 163, 61, 0.08);
+  border-color: #f6e6cf59;
+  background: rgba(222, 146, 239, 0.08);
 }
 
 .btn {
@@ -240,7 +240,7 @@ h1.title {
 .btn.primary {
   background: var(--accent);
   border-color: var(--accent);
-  color: #1a1305;
+  color: #e5e1f2;
 }
 
 .btn.primary:hover {

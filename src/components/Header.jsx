@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <div className="brand">
       <Link to="/weeks" className="brand-title">
-        GT<span className="stamp-dot">Assessments</span>
+        Practice <span className="stamp-dot">Assessments</span>
       </Link>
       {name && (
         <div className="brand-user">
