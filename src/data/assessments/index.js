@@ -1,10 +1,16 @@
-import pmEssentials from "./pm-essentials";
-import pmEssentialsAdvanced from "./pm-essentials-advanced";
-import bankingBusiness1 from "./banking-business-1";
-import bankingBusiness2 from "./banking-business-2";
-import domesticBanking1 from "./domestic-banking-1";
-import domesticBanking2 from "./domestic-banking-2";
-import effectiveSelling from "./effective-selling";
+// week 4
+import pmEssentials from "./week-4/pm-essentials";
+import pmEssentialsAdvanced from "./week-4/pm-essentials-advanced";
+import bankingBusiness1 from "./week-4/banking-business-1";
+import bankingBusiness2 from "./week-4/banking-business-2";
+import domesticBanking1 from "./week-4/domestic-banking-1";
+import domesticBanking2 from "./week-4/domestic-banking-2";
+import effectiveSelling from "./week-4/effective-selling";
+// week 5
+import fraudControlsCompliance1 from "./week-5/fraud-controls-compliance-1";
+import fraudControlsCompliance2 from "./week-5/fraud-controls-compliance-2";
+import creditAnalysis1 from "./week-5/credit-analysis-1";
+import creditAnalysis2 from "./week-5/credit-analysis-2";
 
 // Add new assessments here as new weeks/courses are introduced.
 const ASSESSMENTS = [
@@ -15,6 +21,11 @@ const ASSESSMENTS = [
   domesticBanking1,
   domesticBanking2,
   effectiveSelling,
+  // week 5
+  fraudControlsCompliance1,
+  fraudControlsCompliance2,
+  creditAnalysis1,
+  creditAnalysis2,
 ];
 
 export default ASSESSMENTS;

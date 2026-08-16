@@ -1,0 +1,190 @@
+export default {
+  id: "banking-business-2",
+  title: "Banking Business — Practice Questions",
+  weekId: "week-4",
+  courseId: "banking-business",
+  description:
+    "Related practice questions covering the same Banking Business topics, scrambled order.",
+  questions: [
+    {
+      text: "Which type of institution, reintroduced as a unit banking system in Nigeria in 2013, focuses on wholesale/corporate financial services rather than retail deposit-taking?",
+      options: [
+        "Microfinance bank",
+        "Merchant bank",
+        "Primary mortgage bank",
+        "Payment service bank",
+      ],
+      correctIndex: 1,
+    },
+    {
+      text: "In a unit banking system, decision-making authority is typically:",
+      options: [
+        "Centralized at a distant head office",
+        "Localized and held by the single bank unit's own management",
+        "Delegated to a regulator",
+        "Shared equally among all banks nationwide",
+      ],
+      correctIndex: 1,
+    },
+    {
+      text: "Branch banking, as opposed to unit banking, allows a bank to:",
+      options: [
+        "Operate as a single independent office",
+        "Spread risk and mobilize resources across multiple locations under one central management",
+        "Avoid all central bank regulation",
+        "Focus solely on one geographic market",
+      ],
+      correctIndex: 1,
+    },
+    {
+      text: "Compared to fixed deposits, current account deposits generally:",
+      options: [
+        "Attract higher interest due to longer tenor",
+        "Attract little to no interest since funds are withdrawable on demand",
+        "Cannot be withdrawn before maturity",
+        "Are exclusively for foreign currency",
+      ],
+      correctIndex: 1,
+    },
+    {
+      text: "What is the term for a credit facility that allows a customer to draw funds up to an agreed limit only when needed, rather than as a lump sum?",
+      options: ["Term Loan", "Overdraft", "Lease Finance", "Import Finance"],
+      correctIndex: 1,
+    },
+    {
+      text: "Which of the following is NOT typically a corporate banking service?",
+      options: [
+        "Syndication and leasing",
+        "Foreign exchange and restructuring advisory",
+        "Personal savings account opening for individual walk-in customers",
+        "Technical business advisory services",
+      ],
+      correctIndex: 2,
+    },
+    {
+      text: "Which of the following deposit types generally requires the depositor to commit funds for a fixed period to earn a higher return?",
+      options: [
+        "Current account",
+        "Savings account",
+        "Fixed/Term deposit",
+        "Non-interest-bearing domiciliary account",
+      ],
+      correctIndex: 2,
+    },
+    {
+      text: "Which region's banking history is most closely associated with laws historically restricting branch banking, thereby favouring unit banks?",
+      options: ["Nigeria", "United States (certain states)", "United Kingdom", "Japan"],
+      correctIndex: 1,
+    },
+    {
+      text: "Which system allows customers to access banking services from any of a bank's locations nationwide due to interconnected branches?",
+      options: ["Unit banking", "Branch banking", "Correspondent banking only", "Islamic banking"],
+      correctIndex: 1,
+    },
+    {
+      text: "Which financial statement shows a bank's revenues, expenses and profitability over a period, rather than at a single point in time?",
+      options: [
+        "Statement of Financial Position",
+        "Profit and Loss Account (Income Statement)",
+        "Notes to the Accounts",
+        "Statement of Cash Flows only",
+      ],
+      correctIndex: 1,
+    },
+    {
+      text: "Which of these best describes a key feature distinguishing unit banking from branch banking?",
+      options: [
+        "Centralized decision-making across many locations",
+        "A single, independently managed banking office with no branch network",
+        "Operations exclusively through digital channels",
+        "Government ownership of all units",
+      ],
+      correctIndex: 1,
+    },
+    {
+      text: "Financial intermediation, the foundational function of commercial banks, primarily involves:",
+      options: [
+        "Regulating the stock exchange",
+        "Channeling funds from surplus units (savers) to deficit units (borrowers)",
+        "Issuing government currency",
+        "Setting national fiscal policy",
+      ],
+      correctIndex: 1,
+    },
+    {
+      text: "Overdrafts are structured such that interest is charged:",
+      options: [
+        "On the full approved limit regardless of usage",
+        "Only on the amount actually drawn/utilized",
+        "As a flat annual fee irrespective of usage",
+        "Only when the account is in credit",
+      ],
+      correctIndex: 1,
+    },
+    {
+      text: "Besides interest income, which of the following is also a significant, though smaller, source of a commercial bank's earnings?",
+      options: [
+        "Government subsidies",
+        "Commission and fees on transactions/services (e.g., account maintenance fees)",
+        "Sale of physical bank buildings",
+        "Personal donations",
+      ],
+      correctIndex: 1,
+    },
+    {
+      text: "Why do banks typically form a syndicate to lend to a single large borrower?",
+      options: [
+        "To avoid regulatory approval",
+        "To spread the credit risk and pool resources for large-value financing",
+        "To reduce interest income",
+        "To bypass KYC requirements",
+      ],
+      correctIndex: 1,
+    },
+    {
+      text: "The KYC process in banking is primarily aimed at:",
+      options: [
+        "Increasing account opening fees",
+        "Verifying customer identity to prevent fraud, money laundering and other financial crimes",
+        "Determining a customer's credit score only",
+        "Assigning ATM PINs",
+      ],
+      correctIndex: 1,
+    },
+    {
+      text: "The credit creation ability of commercial banks is primarily limited by:",
+      options: [
+        "The number of branches a bank operates",
+        "Reserve requirements and prudential regulations set by the central bank",
+        "The bank's advertising budget",
+        "Customer's account opening documentation",
+      ],
+      correctIndex: 1,
+    },
+    {
+      text: "Retail banking, unlike corporate banking, is primarily characterized by:",
+      options: [
+        "High-value, complex transactions for large corporations",
+        "Mass-market services for individual customers with an emphasis on volume",
+        "Syndicated lending arrangements",
+        "Trade finance for multinational conglomerates",
+      ],
+      correctIndex: 1,
+    },
+    {
+      text: "What is one key risk faced by unit banks due to their limited size and single location?",
+      options: [
+        "Excessive diversification",
+        "Greater exposure to concentrated local economic shocks and a limited capital base for large lending",
+        "Too much government interference",
+        "Mandatory foreign currency operations",
+      ],
+      correctIndex: 1,
+    },
+    {
+      text: "A bank's balance sheet typically shows total liabilities dominated mostly by:",
+      options: ["Shareholders' equity", "Customer deposits", "Fixed assets", "Retained earnings"],
+      correctIndex: 1,
+    },
+  ],
+};

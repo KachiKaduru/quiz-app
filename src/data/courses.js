@@ -25,6 +25,20 @@ const COURSES = [
     emoji: "🤝",
     description: "Consultative selling, objection handling & client value.",
   },
+  // week 5
+  {
+    id: "fraud-controls-compliance",
+    label: "Fraud, Controls, AML & Legal Issues",
+    emoji: "🕵️‍♂️",
+    description:
+      "Identifying and mitigating fraud risks, compliance requirements, and legal considerations.",
+  },
+  {
+    id: "credit-analysis",
+    label: "Credit Analysis",
+    emoji: "📊",
+    description: "Risk assessment, creditworthiness evaluation & loan structuring.",
+  },
 ];
 
 export default COURSES;

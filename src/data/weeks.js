@@ -7,6 +7,11 @@ const WEEKS = [
     label: "Week 4",
     description: "Practice assessments for Week 4.",
   },
+  {
+    id: "week-5",
+    label: "Week 5",
+    description: "Practice assessments for Week 5.",
+  },
 ];
 
 export default WEEKS;
