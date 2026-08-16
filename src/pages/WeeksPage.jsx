@@ -29,6 +29,7 @@ export default function WeeksPage() {
 
           return (
             <Link key={week.id} to={`/weeks/${week.id}`} className="card">
+              {week.latest && <div className="latest-ribbon">Latest</div>}
               <div className="card-emoji">🗓️</div>
               <div className="card-label">{week.label}</div>
               <div className="card-desc">{week.description}</div>
