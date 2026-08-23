@@ -11,6 +11,12 @@ import fraudControlsCompliance1 from "./week-5/fraud-controls-compliance-1";
 import fraudControlsCompliance2 from "./week-5/fraud-controls-compliance-2";
 import creditAnalysis1 from "./week-5/credit-analysis-1";
 import creditAnalysis2 from "./week-5/credit-analysis-2";
+// week 6
+import itDigitalBanking1 from "./week-6/it-digital-banking-1";
+import itDigitalBanking2 from "./week-6/it-digital-banking-2";
+import cybersecurity1 from "./week-6/cybersecurity-1";
+import cybersecurity2 from "./week-6/cybersecurity-2";
+import cybersecurity3 from "./week-6/cybersecurity-3";
 
 // Add new assessments here as new weeks/courses are introduced.
 const ASSESSMENTS = [
@@ -26,6 +32,12 @@ const ASSESSMENTS = [
   fraudControlsCompliance2,
   creditAnalysis1,
   creditAnalysis2,
+  // week 6
+  itDigitalBanking1,
+  itDigitalBanking2,
+  cybersecurity1,
+  cybersecurity2,
+  cybersecurity3,
 ];
 
 export default ASSESSMENTS;

@@ -39,6 +39,21 @@ const COURSES = [
     emoji: "📊",
     description: "Risk assessment, creditworthiness evaluation & loan structuring.",
   },
+  // week 6
+  {
+    id: "it-digital-banking",
+    label: "IT, Digital Banking & Operational Risk",
+    emoji: "💻",
+    description:
+      "How a modern bank runs, connects, and protects itself digitally — core banking, APIs, cloud, digital channels, KYC, fraud controls, data, and AI, seen through the risk and governance lens a banker needs.",
+  },
+  {
+    id: "cybersecurity",
+    label: "Cybersecurity: Prevention, Response & Forensics",
+    emoji: "🛡️",
+    description:
+      "From threat landscape to incident response — CIA triad, identity & access, social engineering, security controls and Zero Trust, then what happens when prevention fails: containment, digital forensics, chain of custody, and investigation.",
+  },
 ];
 
 export default COURSES;
