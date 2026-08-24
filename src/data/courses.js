@@ -54,6 +54,13 @@ const COURSES = [
     description:
       "From threat landscape to incident response — CIA triad, identity & access, social engineering, security controls and Zero Trust, then what happens when prevention fails: containment, digital forensics, chain of custody, and investigation.",
   },
+  {
+    id: "biz-comm",
+    label: "Business Communication (by Priscilla)",
+    emoji: "📢",
+    description:
+      "How to communicate effectively in a business context, including writing, presentations, and interpersonal communication skills.",
+  },
 ];
 
 export default COURSES;

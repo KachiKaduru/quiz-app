@@ -17,6 +17,9 @@ import itDigitalBanking2 from "./week-6/it-digital-banking-2";
 import cybersecurity1 from "./week-6/cybersecurity-1";
 import cybersecurity2 from "./week-6/cybersecurity-2";
 import cybersecurity3 from "./week-6/cybersecurity-3";
+import bizComm1 from "./week-6/biz-comm-1";
+import bizComm2 from "./week-6/biz-comm-2";
+import bizComm3 from "./week-6/biz-comm-3";
 
 // Add new assessments here as new weeks/courses are introduced.
 const ASSESSMENTS = [
@@ -38,6 +41,9 @@ const ASSESSMENTS = [
   cybersecurity1,
   cybersecurity2,
   cybersecurity3,
+  bizComm1,
+  bizComm2,
+  bizComm3,
 ];
 
 export default ASSESSMENTS;
