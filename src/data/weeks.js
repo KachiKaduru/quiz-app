@@ -3,10 +3,16 @@
 // from what's registered in src/data/assessments/index.js.
 const WEEKS = [
   {
+    id: "week-7",
+    label: "Week 7",
+    description: "Practice assessments for Week 7.",
+    latest: true,
+  },
+  {
     id: "week-6",
     label: "Week 6",
     description: "Practice assessments for Week 6.",
-    latest: true,
+    latest: false,
   },
   {
     id: "week-5",
