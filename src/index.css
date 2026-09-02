@@ -363,6 +363,7 @@ h1.title {
   font-weight: 600;
   line-height: 1.4;
   margin: 0 0 26px;
+  white-space: pre-wrap;
 }
 
 .options {

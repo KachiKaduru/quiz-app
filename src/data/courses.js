@@ -5,6 +5,7 @@ import {COURSES as COURSES_WEEK_4} from "./assessments/week-4";
 import {COURSES as COURSES_WEEK_5} from "./assessments/week-5";
 import {COURSES as COURSES_WEEK_6} from "./assessments/week-6";
 import {COURSES as COURSES_WEEK_7} from "./assessments/week-7";
+import {COURSES as COURSES_WEEK_8} from "./assessments/week-8";
 
 const ALL_COURSES = [
   ...COURSES_WEEK_4,
@@ -14,6 +15,8 @@ const ALL_COURSES = [
   ...COURSES_WEEK_6,
   // week 7
   ...COURSES_WEEK_7,
+  // week 8
+  ...COURSES_WEEK_8,
 ];
 
 export default ALL_COURSES;
